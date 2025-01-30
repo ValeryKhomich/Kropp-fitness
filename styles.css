@@ -378,6 +378,8 @@ h6 {
   background-color: var(--color-light-gray);
 }
 
+/* header */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -462,6 +464,8 @@ h6 {
   border-color: currentColor;
 }
 
+/* section banner */
+
 .banner {
   display: flex;
   flex-direction: column;
@@ -532,7 +536,7 @@ h6 {
   border-color: var(--color-light-gray);
 }
 
-/* Стили ко второй части */
+/* section motivation */
 
 .motivation-item:nth-child(even) {
   background-color: var(--color-dark-alternate);
@@ -569,7 +573,7 @@ h6 {
   margin-bottom: 37px;
 }
 
-/* Стили ко 3 части */
+/* section training-types */
 
 .training-types {
   position: relative;
@@ -592,6 +596,7 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: end;
   row-gap: 32px;
   padding-top: var(--traningTypesItemBgIconSize);
   background: url('./icons/transparent-borrow-bottom-left.svg') 100% 0/var(--traningTypesItemBgIconSize) no-repeat;
@@ -706,7 +711,11 @@ h6 {
 
   .trainings-types-item {
     --traningTypesItemBgIconSize: 50px;
+    row-gap: 10px;
+  }
+
+  .training-types-image {
+    max-width: 120px;
   }
 }
 
-/* Закончили 4 видео на 9.21 */
